@@ -33,12 +33,12 @@
 
      $("#botao").on("click", function(){
 console.log("clicou no botao");
-socket.send("Messagem pelo tunel")
+socket.send($("#usuario").val() + ": " + $("#mensagem").val());
+$("#mensagem").val("")
 
+               });
 
-               })
-
-        })
+        });
         
     </script>
 
