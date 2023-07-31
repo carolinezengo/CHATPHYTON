@@ -14,3 +14,5 @@ def homepage():
 if __name__ == '__main__':
  
  socketion.run(app, host="localhost")
+
+ #$("#lista_mensagens").append($("<p>").text(data));
